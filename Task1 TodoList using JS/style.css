@@ -1,0 +1,86 @@
+body{
+    background-color: lightcyan;
+}
+
+.todo_container{
+    width: 40%;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.TodoForm{
+    background-color: lightpink;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    padding: 0.1rem 0rem 1rem 0rem;
+    border-radius: 1em;
+}
+.todo_tasks_list{
+    background-color: rgb(241, 238, 238);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    border-radius: 1em;
+}
+
+#task_id
+{
+    font-size: large;
+    border-radius: 0.5em;
+    text-indent: 1em;
+    padding: 0.1em;
+    border: none;
+    margin-right: 1em;
+}
+
+#task_id:focus{
+    outline: none;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: 0.1em solid black;
+    width: 50%;
+    border-radius: 0.5em;
+}
+
+ul li:hover{
+    background-color: lightgreen;
+}
+
+ul button{
+    width: 27%;   
+    margin-left: 1.5em; 
+}
+
+ul .task{
+    display: flex;
+    width: 80%;
+    align-items: left;
+    margin: auto;
+    padding: 20px;
+}
+
+button{
+    color: white;
+    width: 20%;
+    background-color: red;
+    border: 0.1px solid rgb(189, 13, 13);
+    border-radius: 1em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: blue;
+    border: 0.1px solid lightskyblue;
+}

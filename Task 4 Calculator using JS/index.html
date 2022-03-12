@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Display_Screen">
+            <input type="text" id="Display" readonly/>
+            <button id="clear" value="C">C</button>
+        </div>
+        <div id="key" class="keys">
+            <div class="row1">
+                <button value="1" onclick="Display(value);">1</button>
+                <button value="2" onclick="Display(value);">2</button>
+                <button value="3" onclick="Display(value);">3</button>
+                <button value="/" class="op" onclick="Display(value);">/</button>
+            </div>
+            <div class="row2">
+                <button value="4" onclick="Display(value);">4</button>
+                <button value="5" onclick="Display(value);">5</button>
+                <button value="6" onclick="Display(value);">6</button>
+                <button value="-" class="op" onclick="Display(value);">-</button>
+            </div>
+            <div class="row3">
+                <button value="7" onclick="Display(value);">7</button>
+                <button value="8" onclick="Display(value);">8</button>
+                <button value="9" onclick="Display(value);">9</button>
+                <button value="+" class="op" onclick="Display(value);">+</button>
+            </div>
+            <div>
+                <button value="." onclick="Display(value);">.</button>
+                <button value="0" onclick="Display(value);">0</button>
+                <button id="equal">=</button>
+                <button value="*" class="op" onclick="Display(value);">*</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
